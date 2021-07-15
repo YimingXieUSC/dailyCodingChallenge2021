@@ -1,0 +1,10 @@
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        currentIndex = 0
+        while currentIndex+1 < len(nums):
+            nextIndex = currentIndex + 1
+            if(nextIndex < len(nums) and nums[currentIndex] == nums[nextIndex]):
+                nums.remove(nums[currentIndex])
+            else:
+                currentIndex = currentIndex + 1
+        return 
