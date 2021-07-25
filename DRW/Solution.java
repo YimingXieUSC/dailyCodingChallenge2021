@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+//https://leetcode.com/discuss/interview-question/700704/amazon-oa-2020-missing-dice-rolls 
+// https://www.1point3acres.com/bbs/thread-683377-1-1.html
 class Solution {
     public int[] solution(int[] A, int F, int M){
         int[] answer = new int[F];
